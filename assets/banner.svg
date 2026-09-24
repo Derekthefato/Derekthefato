@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Player 1 - Derek - Press Start">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0033"/>
+      <stop offset="0.6" stop-color="#3b0a63"/>
+      <stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe14d"/>
+      <stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <clipPath id="sunclip"><rect x="0" y="0" width="900" height="200"/></clipPath>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.28"/>
+    </pattern>
+    <style>
+      .t{font-family:'Courier New',monospace;font-weight:900;text-anchor:middle}
+      .blink{animation:b 1s steps(2,start) infinite}
+      @keyframes b{to{visibility:hidden}}
+      .star{animation:tw 2.4s ease-in-out infinite}
+      @keyframes tw{50%{opacity:.15}}
+      .float{animation:f 3s ease-in-out infinite}
+      @keyframes f{50%{transform:translateY(-6px)}}
+    </style>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#sky)"/>
+
+  <!-- estrelas -->
+  <g fill="#fff">
+    <rect class="star" x="60"  y="30" width="3" height="3"/>
+    <rect class="star" x="160" y="70" width="2" height="2" style="animation-delay:.5s"/>
+    <rect class="star" x="260" y="25" width="3" height="3" style="animation-delay:1s"/>
+    <rect class="star" x="640" y="40" width="3" height="3" style="animation-delay:.3s"/>
+    <rect class="star" x="740" y="80" width="2" height="2" style="animation-delay:1.4s"/>
+    <rect class="star" x="840" y="30" width="3" height="3" style="animation-delay:.8s"/>
+    <rect class="star" x="110" y="120" width="2" height="2" style="animation-delay:1.9s"/>
+    <rect class="star" x="800" y="140" width="2" height="2" style="animation-delay:.2s"/>
+  </g>
+
+  <!-- sol retro com listras -->
+  <g clip-path="url(#sunclip)">
+    <circle cx="450" cy="216" r="54" fill="url(#sun)"/>
+    <rect x="390" y="176" width="120" height="3"  fill="#3b0a63"/>
+    <rect x="390" y="185" width="120" height="4"  fill="#3b0a63"/>
+    <rect x="390" y="193" width="120" height="6"  fill="#3b0a63"/>
+  </g>
+
+  <!-- chao em grade -->
+  <rect y="200" width="900" height="60" fill="#12002a"/>
+  <g stroke="#00f0ff" stroke-width="1" opacity="0.7">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="215" x2="900" y2="215"/>
+    <line x1="0" y1="232" x2="900" y2="232"/>
+    <line x1="0" y1="252" x2="900" y2="252"/>
+    <line x1="450" y1="200" x2="450" y2="260"/>
+    <line x1="450" y1="200" x2="250" y2="260"/>
+    <line x1="450" y1="200" x2="50"  y2="260"/>
+    <line x1="450" y1="200" x2="650" y2="260"/>
+    <line x1="450" y1="200" x2="850" y2="260"/>
+  </g>
+
+  <!-- titulo -->
+  <text class="t" x="452" y="92" font-size="56" fill="#ff2e88" letter-spacing="6">DEREK</text>
+  <text class="t" x="448" y="88" font-size="56" fill="#00f0ff" letter-spacing="6">DEREK</text>
+  <text class="t" x="450" y="90" font-size="56" fill="#fff8e7" letter-spacing="6">DEREK</text>
+  <text class="t" x="450" y="126" font-size="16" fill="#ffe14d" letter-spacing="5">PLAYER 1  //  DEV FULL-STACK</text>
+  <text class="t blink" x="450" y="158" font-size="15" fill="#fff" letter-spacing="4">&#9654; PRESS START &#9664;</text>
+
+  <!-- personagem pixel -->
+  <g class="float" transform="translate(96,118)" shape-rendering="crispEdges">
+    <rect x="12" y="0"  width="24" height="6"  fill="#ff2e88"/>
+    <rect x="6"  y="6"  width="36" height="6"  fill="#ff2e88"/>
+    <rect x="6"  y="12" width="36" height="18" fill="#ffcf9e"/>
+    <rect x="12" y="18" width="6"  height="6"  fill="#12002a"/>
+    <rect x="30" y="18" width="6"  height="6"  fill="#12002a"/>
+    <rect x="14" y="30" width="20" height="6"  fill="#00f0ff"/>
+    <rect x="6"  y="36" width="36" height="24" fill="#00f0ff"/>
+    <rect x="0"  y="38" width="6"  height="16" fill="#ffcf9e"/>
+    <rect x="42" y="38" width="6"  height="16" fill="#ffcf9e"/>
+    <rect x="12" y="60" width="10" height="12" fill="#3b0a63"/>
+    <rect x="26" y="60" width="10" height="12" fill="#3b0a63"/>
+  </g>
+
+  <!-- moeda -->
+  <g class="float" transform="translate(770,124)" shape-rendering="crispEdges" style="animation-delay:.7s">
+    <rect x="6" y="0"  width="24" height="6"  fill="#ffe14d"/>
+    <rect x="0" y="6"  width="36" height="24" fill="#ffe14d"/>
+    <rect x="6" y="30" width="24" height="6"  fill="#ffe14d"/>
+    <rect x="15" y="10" width="6" height="16" fill="#ff9d00"/>
+  </g>
+
+  <!-- HUD -->
+  <text x="24" y="28" font-family="'Courier New',monospace" font-weight="900" font-size="14" fill="#fff">SCORE 0042000</text>
+  <text x="876" y="28" font-family="'Courier New',monospace" font-weight="900" font-size="14" fill="#ff2e88" text-anchor="end">&#9829; &#9829; &#9829;</text>
+
+  <!-- scanlines CRT -->
+  <rect width="900" height="260" fill="url(#scan)"/>
+</svg>
