@@ -66,8 +66,10 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Derekthefato&show_icons=true&theme=synthwave&hide_border=true&bg_color=12002a&title_color=ff2e88&icon_color=00f0ff&text_color=fff8e7&count_private=true&include_all_commits=true" alt="Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Derekthefato&layout=compact&theme=synthwave&hide_border=true&bg_color=12002a&title_color=ff2e88&text_color=fff8e7&langs_count=6" alt="Linguagens" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Derekthefato&theme=radical" alt="Resumo do perfil" width="100%" />
+
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Derekthefato&theme=radical" alt="Stats" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Derekthefato&theme=radical" alt="Linguagens" />
 
 <img src="https://streak-stats.demolab.com?user=Derekthefato&theme=synthwave&hide_border=true&background=12002A&ring=ff2e88&fire=ffe14d&currStreakLabel=00f0ff" alt="Streak" />
 
@@ -77,7 +79,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Derekthefato&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=6&row=1" alt="Troféus" />
+<img src="https://github-trophies.vercel.app/?username=Derekthefato&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=6&row=1" alt="Troféus" />
 
 </div>
 
